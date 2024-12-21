@@ -3,8 +3,8 @@ from Lesson_2.character import Character
 
 class Samurai(Character):
 
-    def __init__(self, name, health, damage):
-        super().__init__(name, health, damage)
+    def __init__(self, name, health, damage, defence):
+        super().__init__(name, health, damage, defence)
         self.damage_multiplier = 1.0
         self.max_multiplier = 1.5
         self.increment = 0.1
